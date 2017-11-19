@@ -1,7 +1,17 @@
 /* 
  * Main CSS File here
 */
+	
+	.link {
+    width: 15%;
+		text-align: center;
+		display: inline-block;
+		float: left;
+	}
 
-  .nav {
-    color:#AAA;
+	.nav {
+        width: 100%;
+		display:block;
+		height:15px;
     }
+	
