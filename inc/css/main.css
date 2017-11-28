@@ -16,8 +16,10 @@
 	.content {
 		border:3px solid black;
 		border-radius:5px;
+		font-family:cursive;
 		width:100%;
 		display:inline-block;
+		text-align:center;
 	}
 	
 	/* 
@@ -39,20 +41,22 @@
 	.infoBox {
 		display:block;
 		text-align:center;
-		width:100%;
+		width:90%;
 		float:left;
 		margin-top: 1%;
 		margin-bottom: 1%;
+		padding-left:5%;
+		padding-right:5%;
 	}
 	
 	/* 
 	*	Use for each individual link in the navbar
 	*/
 	.link {
-    	width: 15%;
 		text-align: center;
 		display: inline-block;
-		float: left;
+		margin-left:2%;
+		margin-right:2%;
 	}
 
 	/* 
@@ -63,5 +67,6 @@
 		display:block;
 		height:15px;
 		margin-top:1%;
-		margin-bottom:2%;
+		margin-bottom:3%;
+		text-align:center;
     }
